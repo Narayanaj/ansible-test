@@ -1,0 +1,4 @@
+---
+- hosts: mywebserver
+  tasks:
+  - yum: name=httpd state=present
