@@ -1,4 +1,4 @@
 ---
 - hosts: mywebserver
   tasks:
-  - copy: src=/etc/ansible/ansible-workstation/myfile dest=/root/ansible/
+  - copy: src=/etc/ansible/ansible-workstation/myfile1 dest=/root/ansible/
