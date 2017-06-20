@@ -1,0 +1,11 @@
+---
+- hosts: myownserver
+  user: root
+  roles:
+   - httpd
+
+  tasks:
+   - name: start apache
+     service:
+      name: httpd
+      state: restarted
